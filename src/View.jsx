@@ -4,13 +4,19 @@ export default class View extends Component {
   static propTypes = {
     children: PropTypes.node,
     className: PropTypes.string,
+    style: PropTypes.object,
+    onClick: PropTypes.func,
   };
 
   render() {
-    const { children, className } = this.props;
+    const { children, className, style, onClick } = this.props;
 
     return (
-      <div className={className}>
+      <div
+        className={className}
+        style={style}
+        onClick={onClick}
+      >
         {children}
       </div>
     );

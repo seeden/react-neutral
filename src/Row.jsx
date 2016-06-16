@@ -1,11 +1,9 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import View from './View';
 
 export default class Row extends Component {
   static propTypes = {
-    children: PropTypes.node,
-    className: PropTypes.string,
-    style: PropTypes.object,
+    ...View.propTypes,
   };
 
   static defaultProps = {
@@ -13,12 +11,8 @@ export default class Row extends Component {
   };
 
   render() {
-    const { children, style } = this.props;
-
     return (
-      <View className={style.root} style={style}>
-        {children}
-      </View>
+      <View {...this.props} />
     );
   }
 }
