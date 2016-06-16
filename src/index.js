@@ -1,6 +1,6 @@
 import View from './View';
-import Container from './Container';
-import Row from './Row';
 import Text from './Text';
+import Anchor from './Anchor';
+import Image from './Image';
 
-export { View, Container, Row, Text };
+export { View, Text, Anchor, Image };
