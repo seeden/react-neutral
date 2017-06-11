@@ -1,13 +1,4 @@
 {
   "extends": "airbnb",
-  "parser": "babel-eslint",
-  "rules": {
-  },
-  "settings": {
-    "import/resolver": {
-      "webpack": {
-        "config": "./webpack.config.js"
-      }
-    }
-  }
+  "parser": "babel-eslint"
 }
