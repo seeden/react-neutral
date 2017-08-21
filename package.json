@@ -19,10 +19,12 @@
     "type": "git",
     "url": "https://github.com/seeden/react-neutral"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-plugin-transform-decorators": "^6.24.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -30,23 +32,23 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-react": "^7.0.1",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-import": "^2.3.0",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-import": "^2.7.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^7.0.0",
     "gulp-util": "^3.0.8",
-    "react": "^15.5.4",
-    "react-addons-test-utils": "^15.5.1",
-    "react-dom": "^15.5.4",
+    "react": "^15.6.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.1",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
-    "enzyme": "^2.8.2"
+    "enzyme": "^2.9.1"
   },
   "peerDependencies": {
-    "react": "15.x || 0.14.x"
+    "react": "15.x || 16.x"
   }
 }

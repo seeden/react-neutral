@@ -1,7 +1,10 @@
 import View from './View';
-import Text from './Text';
-import Anchor from './Anchor';
-import Image from './Image';
+
+export Text from './Text';
+export Anchor from './Anchor';
+export Image from './Image';
+export Heading from './Heading';
+export Paragraph from './Paragraph';
 
 export default View;
-export { View, Text, Anchor, Image };
+export { View };
