@@ -1,7 +1,7 @@
 {
   "name": "react-neutral",
   "description": "Neutral react components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Cherry Projects, s.r.o.",
   "main": "./dist/index.js",
   "browser": "./lib/index.js",
