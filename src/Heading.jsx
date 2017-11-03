@@ -1,16 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Base from './Base';
 
-export default function Heading({ level, ...rest }) {
-  const Tag = `h${level}`;
+export default class Heading extends Base {
+  static propTypes = {
+    level: PropTypes.number,
+  };
+  
+  static defaultProps = {
+    level: 1,
+  };
 
-  return <Tag {...rest} />;
+  render() {
+    const Tag = `h${level}`;
+
+    return (
+      <Tag ref={this.handleNode} {...this.props} />
+    );
+  }
 }
-
-Heading.propTypes = {
-  level: PropTypes.number,
-};
-
-Heading.defaultProps = {
-  level: 1,
-};

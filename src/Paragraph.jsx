@@ -1,5 +1,10 @@
 import React from 'react';
+import Base from './Base';
 
-export default function Paragraph(props) {
-  return <p {...props} />;
+export default class Paragraph extends Base {
+  render() {
+    return (
+      <p ref={this.handleNode} {...this.props} />
+    );
+  }
 }
