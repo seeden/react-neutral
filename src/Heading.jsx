@@ -12,6 +12,7 @@ export default class Heading extends Base {
   };
 
   render() {
+    const { level } = this.props;
     const Tag = `h${level}`;
 
     return (
