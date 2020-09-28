@@ -32,7 +32,7 @@
     ]
   },
   "dependencies": {
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
